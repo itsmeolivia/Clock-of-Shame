@@ -5,6 +5,8 @@
   "description": "Did you really need to check Facebook so soon?",
   "version": "1.0",
 
+  "background": [], 
+
   "permissions": [
     "activeTab",
     "history",
