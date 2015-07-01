@@ -3,7 +3,7 @@
 });
 */
 chrome.webNavigation.onDOMContentLoaded.addListener(function (data){
-  if (data.frameId !== 0) 
+  if (data.frameId !== 0 || !(/^https?:\/\/(?:www\.)?facebook\.com/i).test(data.url)) 
     return;
   console.log(data);
 });
