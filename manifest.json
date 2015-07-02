@@ -5,16 +5,16 @@
   "description": "Did you really need to check Facebook so soon?",
   "version": "1.0",
 
-  "background": {
-    "scripts": ["eventPage.js"],
-    "persistent": false
-  },
-
   "permissions": [
     "activeTab",
-    "history",
     "tabs",
-    "webNavigation",
     "https://www.facebook.com/*"
+  ],
+  "content_scripts": [
+  {
+    "matches": ["https://www.facebook.com/*"],
+    "css": [],
+    "js": ["main.js"]
+  }
   ]
 }
