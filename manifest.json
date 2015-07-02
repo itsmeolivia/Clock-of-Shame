@@ -16,12 +16,5 @@
     "tabs",
     "webNavigation",
     "https://www.facebook.com/*"
-  ],
-  "content_scripts": [
-  {
-    "matches": ["https://www.facebook.com/*"],
-    "css": [],
-    "js": ["main.js"]
-  }
   ]
 }
