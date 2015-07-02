@@ -14,7 +14,7 @@
   {
     "matches": ["https://www.facebook.com/*"],
     "css": [],
-    "js": ["main.js"]
+    "js": ["jquery.js", "main.js"]
   }
   ]
 }
